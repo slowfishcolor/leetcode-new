@@ -5,3 +5,5 @@ This is my solutions for LeetCode.
 旋转数组，三次旋转。  
 * [Merge Intervals](/src/com/sfc/leetcode/Merge_Intervals.java)
 合并区间，先实现 comparator，进行排序，之后判断重复区间进行合并。
+* [Insert Intervals](/src/com/sfc/leetcode/Insert_Interval.java)
+插入有序区间，三段处理。
