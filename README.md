@@ -39,3 +39,8 @@ This is my solutions for LeetCode.
 判断单链表是否有环，快慢指针
 * [Linked List Cycle](/src/com/sfc/leetcode/Linked_List_Cycle_II.java)
 单链表有环的情况下，找到环中的第一个节点
+
+## Binary Search
+
+* [Find Minimum in Rotated Sorted Array](/src/com/sfc/leetcode/Find_Minimum_in_Rotated_Sorted_Array.java)
+找旋转数组中的最小值，用二分查找的思想实现
