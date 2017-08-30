@@ -41,7 +41,8 @@ This is my solutions for LeetCode.
 单链表有环的情况下，找到环中的第一个节点
 * [Merge Two Sorted Lists](/src/com/sfc/leetcode/MergeTwoSortedLists.java)
 合并两个有序链表，保证新的链表也是有序的，递归或者迭代
-
+* [Merge k Sorted Lists](/src/com/sfc/leetcode/MergeKSortedList.java)
+合并K个有序链表，先写合并2个，然后逐个合并
 
 
 ## Binary Search
