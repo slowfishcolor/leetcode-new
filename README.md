@@ -43,6 +43,8 @@ This is my solutions for LeetCode.
 合并两个有序链表，保证新的链表也是有序的，递归或者迭代
 * [Merge k Sorted Lists](/src/com/sfc/leetcode/MergeKSortedList.java)
 合并K个有序链表，先写合并2个，然后逐个合并
+* [Sort List](/src/com/sfc/leetcode/Sort_List.java)
+链表排序，涉及归并排序、快慢指针求链表中点、链表合并
 
 
 ## Binary Search
