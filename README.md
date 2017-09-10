@@ -51,3 +51,5 @@ This is my solutions for LeetCode.
 
 * [Find Minimum in Rotated Sorted Array](/src/com/sfc/leetcode/Find_Minimum_in_Rotated_Sorted_Array.java)
 找旋转数组中的最小值，用二分查找的思想实现
+* [Search Insert Position](/src/com/sfc/leetcode/Search_Insert_Position.java)
+二分查找
