@@ -57,4 +57,6 @@ This is my solutions for LeetCode.
 ## Binary Tree
 
 * [Binary Tree Zigzag Level Order Traversal](/src/com/sfc/leetcode/Binary_Tree_Zigzag_Level_Order_Traversal.java)
-二叉树的 Z 字遍历，使用两个 stack，分别存放当前处理层与下一层，放入时的顺序每换一层改变一次
+二叉树的 Z 字遍历，使用两个 `stack`，分别存放当前处理层与下一层，放入时的顺序每换一层改变一次
+* [Binary Tree Level Order Traversal](/src/com/sfc/leetcode/Binary_Tree_Level_Order_Traversal.java)
+按层遍历二叉树，使用 `queue`，`poll()` 的时候遍历，使用 `last` 记录当前层最后一个节点，`nlast` 记录下一层的最后一个节点，遍历时不断更新 `nlast`
