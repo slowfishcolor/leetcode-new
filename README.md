@@ -62,3 +62,8 @@ This is my solutions for LeetCode.
 按层遍历二叉树，使用 `queue`，`poll()` 的时候遍历，使用 `last` 记录当前层最后一个节点，`nlast` 记录下一层的最后一个节点，遍历时不断更新 `nlast`
 * [Path Sum](/src/com/sfc/leetcode/Path_Sum.java)
 求 `root` 到 `leaf` 的路径和是否等于给定值，递归遍历，相加求和，到达叶子节点时比较
+
+## Permutations
+
+* [Permutations](/src/com/sfc/leetcode/Permutations.java)
+求无重复元素的全排列，交换 + DFS
