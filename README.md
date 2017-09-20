@@ -62,6 +62,8 @@ This is my solutions for LeetCode.
 按层遍历二叉树，使用 `queue`，`poll()` 的时候遍历，使用 `last` 记录当前层最后一个节点，`nlast` 记录下一层的最后一个节点，遍历时不断更新 `nlast`
 * [Path Sum](/src/com/sfc/leetcode/Path_Sum.java)
 求 `root` 到 `leaf` 的路径和是否等于给定值，递归遍历，相加求和，到达叶子节点时比较
+* [Path Sum II](/src/com/sfc/leetcode/Path_Sum_II.java)
+同上，但要记录下符合的路径，方法是传递一个 `path list` 来存储遍历的节点，重点是该层递归遍历结束后移除该层的节点，添加 `path` 到 `result list` 时需要 `new ArrayList<>(path)` 来复制当前 `path`
 
 ## Permutations
 
